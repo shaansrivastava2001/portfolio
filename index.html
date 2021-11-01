@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/f5fc345d60.js" crossorigin="anonymous"></script>
+    <title>My Portfolio</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg p-3 sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Shaan Srivastava</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa fa-navicon"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center navlinks">
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#carouselExampleCaptions">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#experience">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#education">Education</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#skills">Skills</a>
+                  </li>
+              </ul>
+              <ul class="navbar-nav ml-auto social-links">
+                  <li class="nav-item">
+                      <a class="nav-link" href="https://twitter.com/shaansriv15" target="_blank">
+                          <i class="fab fa-twitter"></i>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="https://github.com/shaansrivastava2001" target="_blank">
+                          <i class="fab fa-github"></i>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="https://www.linkedin.com/in/shaan-srivastava-857315192/" target="_blank">
+                          <i class="fab fa-linkedin"></i>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="mailto:shaansrivastava2001@gmail.com" target="_blank">
+                          <i class="fas fa-envelope"></i>
+                      </a>
+                  </li>
+              </ul>
+              </div>
+          </div>
+      </nav>
+      
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item profile-pic active" style="background-image: url('./images/bg2.png');background-repeat: no-repeat;background-size: cover;">
+            <div class="container">
+              <div class="row">
+                <div class="col-6 justify-content-right ml-auto d-flex">
+                  <img src="./images/shaan.png" class="img-fluid img-responsive" alt="My image">
+                </div>
+                <div class="col-6 m-auto">
+                  <h2>Hello, I am Shaan Srivastava</h2>
+                  <h4>I am Web Designer</h4>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <div class="carousel-item college">
+            <img src="./images/geeta.jpg" class="d-block w-100 img-responsive img-fluid" alt="College">
+            <div class="carousel-caption d-none d-md-block">
+              <a href="#" target="_blank"><h3>Jaypee University of Information Technology</h3></a>
+              <h4>My College</h4>
+            </div>
+          </div>
+          <div class="carousel-item school">
+            <img src="./images/bg3.jpg" class="d-block w-100" alt="School">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div id="about">
+          <div class="container">
+            <h2 class="text-center">About</h2>
+            <p class="mt-4" data-aos="zoom-in">I am a passionate and a fast learner who always looks out to learn something. I always try to learn new things
+                and try to improve my skills. I am a Computer Science student and love to design web pages.<br>
+                For past two years I have been working on my Web designing skills and also have been learning new languages
+                and frameworks.
+            </p>
+          </div>
+          <hr>
+      </div>
+
+      <div id="experience">
+          <div class="container">
+            <h2 class="text-center">Experience</h2>
+              <div class="experiences" data-aos="fade-left">
+                <h3>Web Development Intern</h3>
+                <h4><a href="https://www.prashnottar.in/" target="_blank">Prashnottar Private Limited</a></h4>
+                <h4><a class="duration" href="#">April 2021 - July 2021</a></h4>
+                <p>I worked as a <strong>Web Development Intern</strong> for two months in Prashnottar Pvt. Ltd. My job was to
+                maintain their website and make some changes in the student dashboard. They had a videos section in the dashboard
+                for which I set respective paths for different students of different classes and batches and redirected them to respective
+                pages. I first made a clone for dashboard to understand the concept well.</p>
+              </div>
+              <div class="experiences" data-aos="fade-left" data-aos-delay="10">
+                <h3>Web Master</h3>
+                <h4><a href="http://ieeejuit.co.in/" target="_blank">IEEE JUIT Student Branch</a></h4>
+                <h4><a class="duration" href="#">August 2021 - Present</a></h4>
+                <p>I have been serving as the <strong>Web Master</strong> at IEEE Student Branch at my college. My job here is maintaining main website for IEEE
+                  and changing the content and adding new styles to the website. I manage every website related work for this club. 
+                </p>
+              </div>
+          </div>
+          <hr>
+      </div>
+
+      <div id="education">
+        <div class="container">
+          <h2 class="text-center">Education</h2>
+            <div class="educations" data-aos="fade-right">
+              <h3>Schooling</h3>
+              <h4><a href="http://www.gnnps.in/" target="_blank">G.N. National Public School</a></h4>
+              <h4><a class="duration" href="#">March 2005 - April 2019</a></h4>
+              <p>12th Percentage: 93.6%</p>
+            </div>
+            <div class="educations" data-aos="fade-left" data-aos-delay="10">
+              <h3>Bachelor of Technology</h3>
+              <h4><a href="https://www.juit.ac.in/" target="_blank">Jaypee University of Information Technology</a></h4>
+              <h4><a class="duration" href="#">August 2019 - Present</a></h4>
+              <p>C.G.P.A.: 9.2</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" data-aos="zoom-in">
+      <div class="container">
+        <h2 class="text-center">Skills</h2>
+        <h3 class="text-center">Programming Languages and Tools</h3>
+          <ul class="list-inline dev-icons text-center">
+            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+            <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+            <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
+            <li class="list-inline-item"><i class="fab fa-react"></i></li>
+            <li class="list-inline-item"><i class="fab fa-python"></i></li>
+            <li class="list-inline-item"><i class="fas fa-database"></i></li>
+        </ul>
+      </div>
+      <hr>
+    </div>
+
+    <footer class="bg-dark p-3">
+      <div class="text-white text-center">
+        <small>&copy; Made with <span>&hearts;</span> by Shaan Srivastava</small>
+      </div>
+     </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 2000
+      });
+    </script>
+  </body>
+</html>
